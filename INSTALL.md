@@ -29,7 +29,7 @@
 - Activate virtual environment:
   
     ```console
-    py38env\Scripts\activate
+    py36env\Scripts\activate
     ```
 
 - Install requirements in virtual environment:
