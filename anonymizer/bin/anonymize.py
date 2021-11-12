@@ -16,6 +16,7 @@ limitations under the License.
 
 
 import argparse
+import pathlib
 
 from anonymizer.anonymization import Anonymizer
 from anonymizer.detection import Detector, download_weights, get_weights_path
@@ -76,7 +77,7 @@ def parse_args():
     return args
 
 
-def main(input_path, image_output_path, weights_path, image_extensions, face_threshold, plate_threshold,
+def main(input_path, image_output_path, weights_path=str(pathlib.Path(__file__).parents[2]/"weights"), image_extensions, face_threshold, plate_threshold,
          write_json, obfuscation_parameters):
     download_weights(download_directory=weights_path)
 
