@@ -1,7 +1,7 @@
 pytest==3.9.1
 flake8==3.5.0
 numpy==1.19.5
-tensorflow  # if on GPU machine: tensorflow-gpu
+tensorflow==1.11.0  # if on GPU machine: tensorflow-gpu
 scipy==1.1.0
 Pillow==5.3.0
 requests==2.20.0
