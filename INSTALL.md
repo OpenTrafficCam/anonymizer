@@ -23,7 +23,7 @@
 - Create virtual environment by running the following command:
 
     ```console
-    python -m virtualenv -p python3.8 py38env
+    python -m virtualenv -p python3.6 py36env
     ```
 
 - Activate virtual environment:
